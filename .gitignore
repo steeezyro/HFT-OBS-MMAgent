@@ -1,0 +1,128 @@
+# Build directories
+build/
+cmake-build-*/
+.cmake/
+
+# Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Executables
+*.exe
+replay
+zmq_bridge
+bench_orderbook
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files
+*.itch
+*.pcap
+*.csv
+*.parquet
+*.h5
+
+# Logs
+*.log
+logs/
+
+# Models and checkpoints
+models/
+checkpoints/
+*.pkl
+*.pth
+*.ckpt
+
+# Reports
+reports/
+*.html
+*.png
+*.jpg
+*.pdf
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Configuration files with secrets
+.env
+.env.local
+secrets.json
+config.json
+
+# Wandb
+wandb/
+
+# Generated documentation
+docs/_build/
+site/
+
+# Benchmark results
+*.json
+benchmark_results/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Test results
+Testing/
+test_results/
+
+# Coverage
+.coverage*
+coverage/
+
+# Package managers
+node_modules/
+.yarn/
+
+# Sample data
+sample.itch
+test_data/
