@@ -1,0 +1,32 @@
+{
+  "order_book_benchmark": {
+    "total_operations": 50000,
+    "total_time_seconds": 0.13901795900892466,
+    "average_latency_us": 0.4868479538708925,
+    "median_latency_us": 0.3750319592654705,
+    "p50_latency_us": 0.3750319592654705,
+    "p95_latency_us": 0.667001586407423,
+    "p99_latency_us": 1.00000761449337,
+    "p999_latency_us": 10.541989468038082,
+    "max_latency_us": 244.7919687256217,
+    "min_latency_us": 0.24994369596242905,
+    "throughput_ops_per_sec": 359665.7608589269,
+    "orders_in_book": 24812,
+    "bid_levels": 12392,
+    "ask_levels": 12420
+  },
+  "trading_simulation": {
+    "final_pnl": 661.8264399000909,
+    "total_return_pct": 0.06618264399000909,
+    "sharpe_ratio": 1.5085868581313915,
+    "max_drawdown_pct": 0.061616546762839425,
+    "total_trades": 372,
+    "win_rate_pct": 65.59139784946237,
+    "final_inventory": -20,
+    "days_simulated": 110
+  },
+  "python_tests": {
+    "passed": false,
+    "error": "No module named 'zmq'"
+  }
+}
