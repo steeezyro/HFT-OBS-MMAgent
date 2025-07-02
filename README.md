@@ -4,7 +4,6 @@ High-performance order book simulator with reinforcement learning agents for ins
 
 > **📊 Real Performance Results:** Metrics below show actual measurements from Python simulation benchmark (110-day backtest). Run `python3 scripts/python_only_metrics.py` to generate fresh results on your hardware.
 
-![Build Status](https://img.shields.io/badge/build-framework-ready-brightgreen)
 ![Language](https://img.shields.io/badge/language-C%2B%2B20%20%7C%20Python%203.12-blue)
 ![License](https://img.shields.io/badge/license-Proprietary-red)
 
@@ -29,6 +28,8 @@ make bench && make report
 | **Max Drawdown** | 0.06% | < 15% | ✅ **EXCEEDED** |
 | **Win Rate** | 65.6% | N/A | ✅ **STRONG** |
 | **Total Return** | +0.066% (110 days) | Positive | ✅ **POSITIVE** |
+
+> **[Full Python Simulation Performance Results](real_python_metrics_20250701_025154.json)**
 
 > **Note:** Results from `scripts/python_only_metrics.py` simulation. Run C++ benchmarks with `make bench` for hardware-specific measurements.
 
@@ -129,9 +130,8 @@ Trading Strategy Results (110-day backtest):
 ## 📚 Documentation
 
 - **[Architecture Overview](docs/architecture.md)** - System design and component interaction
-- **[Performance Analysis](docs/performance.md)** - Benchmarks and optimization techniques  
-- **[API Reference](docs/reference/)** - Auto-generated code documentation
-- **[Trading Strategies](docs/strategies/)** - Market making methodology and RL training
+- **[Performance Analysis](scripts/)** - Benchmarks and optimization techniques
+- **[Trading Strategies](python/hft_rl/)** - Market making methodology and RL training
 
 ## 🛠️ Development Setup
 
