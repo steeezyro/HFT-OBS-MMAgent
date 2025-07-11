@@ -24,9 +24,9 @@ make bench && make report
 | **P50 Latency** | 0.38 μs | ≤ 10 μs | ✅ **EXCEEDED** |
 | **P99 Latency** | 1.00 μs | ≤ 100 μs | ✅ **EXCEEDED** |
 | **Throughput** | 359,666 ops/sec | ≥ 100k ops/sec | ✅ **EXCEEDED** |
-| **Sharpe Ratio** | 1.51 | > 0.5 | ✅ **EXCEEDED** |
+| **Sharpe Ratio** | 1.12 | > 0.5 | ✅ **EXCEEDED** |
 | **Max Drawdown** | 0.06% | < 15% | ✅ **EXCEEDED** |
-| **Win Rate** | 65.6% | N/A | ✅ **STRONG** |
+| **Win Rate** | 65.6% | > 50% | ✅ **STRONG** |
 | **Total Return** | +0.066% (110 days) | Positive | ✅ **POSITIVE** |
 
 > **[Full Python Simulation Performance Results](real_python_metrics_20250701_025154.json)**
